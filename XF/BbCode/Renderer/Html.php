@@ -12,16 +12,28 @@ class Html extends XFCP_Html
 
 		if ($xfOptions->AnonReferrerActive) {
 			$anonreferrer = $xfOptions->AnonReferrerPrefix;
-			if ($visitor_arr['user_id'] === 0 && $xfOptions->AnonReferrerHideGuestLink) {
+			if ($visitor_arr['user_id'] === 0 && $xfOptions->AnonReferrerHideGuestLink && $xfOptions->AnonReferrerHideGuestLinkInternal) {
 				return \XF::phrase('AnonReferrerGuestLink');
 			} else {
 				if ($xfOptions->AnonReferrerInternalActive) {
-					return str_replace('href="', 'href="' . $anonreferrer, $url);
+					if ($visitor_arr['user_id'] === 0 && $xfOptions->AnonReferrerHideGuestLink) {
+						if ((strpos($url, $xfOptions->boardUrl) !== false)) {
+							return str_replace('href="', 'href="' . $anonreferrer, $url);
+						} else {
+							return \XF::phrase('AnonReferrerGuestLink');
+						}
+					} else {
+						return str_replace('href="', 'href="' . $anonreferrer, $url);
+					}
 				} else {
 					if ((strpos($url, $xfOptions->boardUrl) !== false)) {
 						return $url;
 					} else {
-						return str_replace('href="', 'href="' . $anonreferrer, $url);
+						if ($visitor_arr['user_id'] === 0 && $xfOptions->AnonReferrerHideGuestLink) {
+							return \XF::phrase('AnonReferrerGuestLink');
+						} else {
+							return str_replace('href="', 'href="' . $anonreferrer, $url);
+						}
 					}
 				}
 			}

@@ -1,12 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <phrases>
-  <phrase title="AnonReferrerGuestLink" version_id="1527238227" version_string="2.0.2"><![CDATA[ [Ссылка доступна только для зарегистрированных] ]]></phrase>
+  <phrase title="AnonReferrerGuestLink" version_id="1527238229" version_string="2.0.2 fix"><![CDATA[[Ссылка доступна только для зарегистрированных]]]></phrase>
   <phrase title="option.AnonReferrerActive" version_id="1527238222" version_string="2.0.0"><![CDATA[Активирован]]></phrase>
   <phrase title="option.AnonReferrerHideGuestLink" version_id="1527238225" version_string="2.0.1"><![CDATA[Скрыть ссылки от гостей]]></phrase>
+  <phrase title="option.AnonReferrerHideGuestLinkInternal" version_id="1527238229" version_string="2.0.2 fix"><![CDATA[Скрывать внутренние ссылки от гостей]]></phrase>
   <phrase title="option.AnonReferrerInternalActive" version_id="1527238223" version_string="2.0.0"><![CDATA[Внутренние ссылки]]></phrase>
   <phrase title="option.AnonReferrerPrefix" version_id="1527238222" version_string="2.0.0"><![CDATA[Сервис]]></phrase>
   <phrase title="option_explain.AnonReferrerActive" version_id="1527238222" version_string="2.0.0"><![CDATA[Данная опция Включает/Отключает плагин.]]></phrase>
   <phrase title="option_explain.AnonReferrerHideGuestLink" version_id="1527238225" version_string="2.0.1"><![CDATA[Включить/Выключить функцию скрытия всех ссылок от <b>Гостя</b>.]]></phrase>
+  <phrase title="option_explain.AnonReferrerHideGuestLinkInternal" version_id="1527238229" version_string="2.0.2 fix"><![CDATA[Включить/Выключить скрытие внутренних ссылок от <b>Гостя</b>.]]></phrase>
   <phrase title="option_explain.AnonReferrerInternalActive" version_id="1527238223" version_string="2.0.0"><![CDATA[Данная опция Включает/Отключает анонимизацию внутренних ссылок.]]></phrase>
   <phrase title="option_explain.AnonReferrerPrefix" version_id="1527238222" version_string="2.0.0"><![CDATA[Выбираем из списка сервис для скрытия Referrer.]]></phrase>
   <phrase title="option_group.AnonReferrerOption" version_id="1527238227" version_string="2.0.2"><![CDATA[AnonReferrer System]]></phrase>
