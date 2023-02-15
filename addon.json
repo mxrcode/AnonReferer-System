@@ -1,0 +1,14 @@
+{
+    "legacy_addon_id": "",
+    "title": "[MxR] AnonReferrer",
+    "description": "Плагин для скрытия Referrer внешних ссылок",
+    "version_id": 1527238223,
+    "version_string": "2.0.0",
+    "dev": "MxR",
+    "dev_url": "https://github.com/mxrcode/",
+    "faq_url": "",
+    "support_url": "https://xenforo.info/members/16758/",
+    "extra_urls": [],
+    "require": [],
+    "icon": "fa-link"
+}
