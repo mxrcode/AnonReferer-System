@@ -1,17 +1,16 @@
 {
     "legacy_addon_id": "",
     "title": "[MxR] AnonReferrer System",
-    "description": "System to hide referrer links, links from guest. With Whitelist",
-    "version_id": 1527238257,
-    "version_string": "2.0.5.2",
+    "description": "System for Hide links from guest and referer links. Supports Whitelist & Mirrors.",
+    "version_id": 1651979999,
+    "version_string": "2.2.0.0",
     "dev": "MxR",
-    "dev_url": "https://github.com/mxrcode/",
+    "dev_url": "https://xenforo.info/members/16758/",
     "faq_url": "",
     "support_url": "",
     "extra_urls": {
-    	"Support 1": "https://xenforo.info/resources/6847/",
-    	"Support 2": "https://xenforotest.ru/resources/3529/"
+    	"Support": "https://xenforo.info/resources/6847/"
     },
     "require": [],
-    "icon": "fa-external-link-square-alt"
+    "icon": "icon.jpg"
 }
