@@ -7,37 +7,15 @@ class Html extends XFCP_Html
 	public function renderTagUrl(array $children, $option, array $tag, array $options)
 	{
 		$url = parent::renderTagUrl($children, $option, $tag, $options);
-		$xfOptions = \XF::options();
-		$visitor_arr = \XF::visitor();
-		$mxrlinkfg = \XF::phrase('AnonReferrerGuestLink');
+		$xfstt = \XF::options();
+		$visitor = \XF::visitor();
 
-		if ($xfOptions->AnonReferrerActive) {
-			$anonreferrer = $xfOptions->AnonReferrerPrefix;
-			if ($visitor_arr['user_id'] === 0 && $xfOptions->AnonReferrerHideGuestLink && $xfOptions->AnonReferrerHideGuestLinkInternal) {
-				return $mxrlinkfg;
-			} else {
-				if ($xfOptions->AnonReferrerInternalActive) {
-					if ($visitor_arr['user_id'] === 0 && $xfOptions->AnonReferrerHideGuestLink) {
-						if ((strpos($url, $xfOptions->boardUrl) !== false)) {
-							return str_replace('href="', 'href="' . $anonreferrer, $url);
-						} else {
-							return $mxrlinkfg;
-						}
-					} else {
-						return str_replace('href="', 'href="' . $anonreferrer, $url);
-					}
-				} else {
-					if ((strpos($url, $xfOptions->boardUrl) !== false)) {
-						return $url;
-					} else {
-						if ($visitor_arr['user_id'] === 0 && $xfOptions->AnonReferrerHideGuestLink) {
-							return $mxrlinkfg;
-						} else {
-							return str_replace('href="', 'href="' . $anonreferrer, $url);
-						}
-					}
-				}
-			}
+		preg_match_all('|//(.*?)/|is', $url, $siteurl);
+		if (in_array($siteurl[1][0], explode("\n", $xfstt->AnRefWL))) {
+			return $url;
+		} else {
+			$url = str_replace('href="', 'href="' . $xfstt->AnRefPrefix, $url);
+			if ($visitor['user_id'] == 0 && $xfstt->AnRefHGlink): $url = \XF::phrase('AnRefGL'); endif;
 		}
 		return $url;
 	}

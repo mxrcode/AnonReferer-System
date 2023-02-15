@@ -1,38 +1,25 @@
 <?xml version="1.0" encoding="utf-8"?>
 <options>
-  <option option_id="AnonReferrerActive" edit_format="onoff" data_type="boolean">
-    <default_value>1</default_value>
-    <relation group_id="AnonReferrerOption" display_order="1"/>
-  </option>
-  <option option_id="AnonReferrerHideGuestLink" edit_format="onoff" data_type="boolean">
-    <default_value>1</default_value>
-    <relation group_id="AnonReferrerOption" display_order="4"/>
-  </option>
-  <option option_id="AnonReferrerHideGuestLinkInternal" edit_format="onoff" data_type="boolean">
+  <option option_id="AnRefHGlink" edit_format="onoff" data_type="boolean">
     <default_value>1</default_value>
     <relation group_id="AnonReferrerOption" display_order="5"/>
   </option>
-  <option option_id="AnonReferrerInternalActive" edit_format="onoff" data_type="boolean">
-    <default_value>1</default_value>
-    <relation group_id="AnonReferrerOption" display_order="2"/>
-  </option>
-  <option option_id="AnonReferrerPrefix" edit_format="select" data_type="string">
+  <option option_id="AnRefPrefix" edit_format="select" data_type="string">
     <default_value>https://href.li/?=href.li</default_value>
     <edit_format_params>https://href.li/?=href.li
 http://nullrefer.com/?=nullrefer.com
 http://anonym.to/?=anonym.to
-http://anoney.com/?=anoney.com
 http://anonyme.ru/?=anonyme.ru
-http://nullref.ru/?=nullref.ru
-http://sledow.net/?=sledow.net
-http://hidemyass.com/?=hidemyass.com
 http://www.redirect.am/?=redirect.am
 http://hideref.org/?=hideref.org
 http://www.dereferer.com/?=dereferer.com
-http://hiderefer.me/?=hiderefer.me
 http://privatelink.de/?=privatelink.de
-http://anonymz.com/?=anonymz.com
-http://mykecoh.com/anon/?=mykecoh.com/anon</edit_format_params>
+http://anonymz.com/?=anonymz.com</edit_format_params>
     <relation group_id="AnonReferrerOption" display_order="3"/>
+  </option>
+  <option option_id="AnRefWL" edit_format="textbox" data_type="string">
+    <default_value></default_value>
+    <edit_format_params>rows=2</edit_format_params>
+    <relation group_id="AnonReferrerOption" display_order="6"/>
   </option>
 </options>

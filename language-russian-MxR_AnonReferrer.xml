@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<language title="russian" date_format="M j, Y" time_format="g:i A" currency_format="{symbol}{value}" week_start="0" decimal_point="." thousands_separator="," label_separator=":" comma_separator=", " ellipsis="..." parenthesis_open="(" parenthesis_close=")" language_code="ru-RU" text_direction="LTR" addon_id="MxR/AnonReferrer" base_version_id="1527238245" export_version="2">
+  <phrase title="AnRefGL" addon_id="MxR/AnonReferrer" version_id="1527238245" version_string="2.0.5"><![CDATA[<span class="mxr_block_glinks"><i class="fa fa-exclamation-triangle" aria-hidden="true"></i>Для просмотра ссылки <a href="/index.php?login/" title="Вход">Войди</a> <text>или</text> <a href="/index.php?register/" title="Регистрация">Зарегистрируйся</a></span>]]></phrase>
+  <phrase title="option.AnRefHGlink" addon_id="MxR/AnonReferrer" version_id="1527238245" version_string="2.0.5"><![CDATA[Скрывать ссылки от Гостя]]></phrase>
+  <phrase title="option.AnRefPrefix" addon_id="MxR/AnonReferrer" version_id="1527238245" version_string="2.0.5"><![CDATA[Сервис]]></phrase>
+  <phrase title="option_explain.AnRefPrefix" addon_id="MxR/AnonReferrer" version_id="1527238245" version_string="2.0.5"><![CDATA[Выберите сервис для referer у ссылок <i>(Анонимизации)</i>.]]></phrase>
+  <phrase title="option_explain.AnRefWL" addon_id="MxR/AnonReferrer" version_id="1527238245" version_string="2.0.5"><![CDATA[Одна строка - Одна ссылка, <b>без</b> пробелов.<br>
+<i>Пример:<br>
+site.com<br>
+site.io</i>]]></phrase>
+  <phrase title="option_group_description.AnonReferrerOption" addon_id="MxR/AnonReferrer" version_id="1527238245" version_string="2.0.5"><![CDATA[Скрыть referer у ссылок, скрыть ссылки от гостя. Whitelist.]]></phrase>
+</language>

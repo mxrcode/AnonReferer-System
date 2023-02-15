@@ -1,9 +1,9 @@
 {
     "legacy_addon_id": "",
     "title": "[MxR] AnonReferrer System",
-    "description": "Система для скрытия: Referrer ссылок, Ссылок от гостей",
-    "version_id": 1527238240,
-    "version_string": "2.0.4 beta",
+    "description": "System to hide referrer links, links from guest. With Whitelist",
+    "version_id": 1527238245,
+    "version_string": "2.0.5",
     "dev": "MxR",
     "dev_url": "https://github.com/mxrcode/",
     "faq_url": "",
@@ -13,5 +13,5 @@
     	"Support 2": "https://xenforotest.ru/resources/mxr-anonreferrer-system.3529/"
     },
     "require": [],
-    "icon": "fa-link"
+    "icon": "fa-external-link-square-alt"
 }
