@@ -4,6 +4,10 @@
     <default_value>1</default_value>
     <relation group_id="AnonReferrerOption" display_order="1"/>
   </option>
+  <option option_id="AnonReferrerInternalActive" edit_format="onoff" data_type="boolean">
+    <default_value>1</default_value>
+    <relation group_id="AnonReferrerOption" display_order="2"/>
+  </option>
   <option option_id="AnonReferrerPrefix" edit_format="select" data_type="string">
     <default_value>https://href.li/?=href.li</default_value>
     <edit_format_params>https://href.li/?=href.li
@@ -21,6 +25,6 @@ http://hiderefer.me/?=hiderefer.me
 http://privatelink.de/?=privatelink.de
 http://anonymz.com/?=anonymz.com
 http://mykecoh.com/anon/?=mykecoh.com/anon</edit_format_params>
-    <relation group_id="AnonReferrerOption" display_order="1"/>
+    <relation group_id="AnonReferrerOption" display_order="3"/>
   </option>
 </options>

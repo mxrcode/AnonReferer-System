@@ -9,13 +9,16 @@ class Html extends XFCP_Html
 		$url = parent::renderTagUrl($children, $option, $tag, $options);
 		$xfOptions = \XF::options();
 
-		if ($xfOptions->AnonReferrerActive)
-		{
+		if ($xfOptions->AnonReferrerActive) {
 			$anonreferrer = $xfOptions->AnonReferrerPrefix;
-			if ((strpos($url, $xfOptions->boardUrl) !== false)) {
-				return $url;
-			} else {
+			if ($xfOptions->AnonReferrerInternalActive) {
 				return str_replace('href="', 'href="' . $anonreferrer, $url);
+			} else {
+				if ((strpos($url, $xfOptions->boardUrl) !== false)) {
+					return $url;
+				} else {
+					return str_replace('href="', 'href="' . $anonreferrer, $url);
+				}
 			}
 		}
 		
