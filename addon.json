@@ -1,9 +1,9 @@
 {
     "legacy_addon_id": "",
-    "title": "[MxR] AnonReferrer",
-    "description": "Плагин для скрытия Referrer внешних ссылок",
-    "version_id": 1527238225,
-    "version_string": "2.0.1",
+    "title": "[MxR] AnonReferrer System",
+    "description": "Система для скрытия: Referrer ссылок, Ссылок от гостей",
+    "version_id": 1527238227,
+    "version_string": "2.0.2",
     "dev": "MxR",
     "dev_url": "https://github.com/mxrcode/",
     "faq_url": "",

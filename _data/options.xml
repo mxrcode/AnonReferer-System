@@ -4,6 +4,10 @@
     <default_value>1</default_value>
     <relation group_id="AnonReferrerOption" display_order="1"/>
   </option>
+  <option option_id="AnonReferrerHideGuestLink" edit_format="onoff" data_type="boolean">
+    <default_value>1</default_value>
+    <relation group_id="AnonReferrerOption" display_order="4"/>
+  </option>
   <option option_id="AnonReferrerInternalActive" edit_format="onoff" data_type="boolean">
     <default_value>1</default_value>
     <relation group_id="AnonReferrerOption" display_order="2"/>

@@ -8,20 +8,25 @@ class Html extends XFCP_Html
 	{
 		$url = parent::renderTagUrl($children, $option, $tag, $options);
 		$xfOptions = \XF::options();
+		$visitor_arr = \XF::visitor();
+		$user_guest_id = $xfOptions->AnonReferrerGuestID;
 
 		if ($xfOptions->AnonReferrerActive) {
 			$anonreferrer = $xfOptions->AnonReferrerPrefix;
-			if ($xfOptions->AnonReferrerInternalActive) {
-				return str_replace('href="', 'href="' . $anonreferrer, $url);
+			if ($visitor_arr['user_id'] === 0 && $xfOptions->AnonReferrerHideGuestLink) {
+				return \XF::phrase('AnonReferrerGuestLink');
 			} else {
-				if ((strpos($url, $xfOptions->boardUrl) !== false)) {
-					return $url;
-				} else {
+				if ($xfOptions->AnonReferrerInternalActive) {
 					return str_replace('href="', 'href="' . $anonreferrer, $url);
+				} else {
+					if ((strpos($url, $xfOptions->boardUrl) !== false)) {
+						return $url;
+					} else {
+						return str_replace('href="', 'href="' . $anonreferrer, $url);
+					}
 				}
 			}
 		}
-		
 		return $url;
 	}
 }
