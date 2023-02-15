@@ -14,7 +14,7 @@ class Html extends XFCP_Html
 		if (in_array($siteurl[1][0], explode("\n", $xfstt->AnRefWL))) {
 			return $url;
 		} else {
-			$url = str_replace('href="', 'href="' . $xfstt->AnRefPrefix, $url);
+			$url = str_replace(' href="', ' href="' . $xfstt->AnRefPrefix, $url);
 			if ($visitor['user_id'] == 0 && $xfstt->AnRefHGlink): $url = \XF::phrase('AnRefGL'); endif;
 		}
 		return $url;
