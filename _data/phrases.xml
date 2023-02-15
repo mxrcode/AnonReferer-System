@@ -1,15 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
 <phrases>
   <phrase title="AnRefGL" version_id="1527238245" version_string="2.0.5"><![CDATA[<span class="mxr_block_glinks"><i class="fa fa-exclamation-triangle" aria-hidden="true"></i>To view the link, you must: <a href="/index.php?login/" title="to Sign In">Sign In</a> <text>or</text> <a href="/index.php?register/" title="to Sign Up">Sign Up</a></span>]]></phrase>
+  <phrase title="AnonReferrerGuestLink" version_id="1527238232" version_string="2.0.3"><![CDATA[<span class="mxr_ars_elem_div"><i class="fa fa-exclamation-triangle" aria-hidden="true"></i>Для просмотра ссылки необходимо: <a href="/index.php?login/" title="Перейти на страницу входа">Войти</a> <text>или</text> <a href="/index.php?register/" title="Перейти на страницу регистрации">Регистрация</a></span>]]></phrase>
   <phrase title="option.AnRefHGlink" version_id="1527238245" version_string="2.0.5"><![CDATA[Hide links from Guest]]></phrase>
+  <phrase title="option.AnRefML" version_id="1527238255" version_string="2.0.5.1"><![CDATA[Mirror list]]></phrase>
   <phrase title="option.AnRefPrefix" version_id="1527238245" version_string="2.0.5"><![CDATA[Service]]></phrase>
   <phrase title="option.AnRefWL" version_id="1527238240" version_string="2.0.4 beta"><![CDATA[Whitelist]]></phrase>
   <phrase title="option_explain.AnRefHGlink" version_id="1527238245" version_string="2.0.5"><![CDATA[]]></phrase>
-  <phrase title="option_explain.AnRefPrefix" version_id="1527238245" version_string="2.0.5"><![CDATA[Select from the list of services to hide Referrer]]></phrase>
-  <phrase title="option_explain.AnRefWL" version_id="1527238245" version_string="2.0.5"><![CDATA[One line - One link, without spaces<br>
+  <phrase title="option_explain.AnRefML" version_id="1527238256" version_string="2.0.5.2"><![CDATA[<br />
+<b>Whitelist</b> — The list of domains that will <b>not</b> be processed by the plugin.<br />
+<b>Mirror list</b> — List of forum aliases including primary domain name. Domains in links will be replaced with the current one used by a specific user.<br />
+One line - One link, without spaces<br>
 <i>Example:<br>
-site.com<br>
-site.io</i>]]></phrase>
+site1.com<br>
+site1.io</i>]]></phrase>
+  <phrase title="option_explain.AnRefPrefix" version_id="1527238245" version_string="2.0.5"><![CDATA[Select from the list of services to hide Referrer]]></phrase>
+  <phrase title="option_explain.AnRefWL" version_id="1527238256" version_string="2.0.5.2"><![CDATA[]]></phrase>
   <phrase title="option_group.AnonReferrerOption" version_id="1527238227" version_string="2.0.2"><![CDATA[AnonReferrer System]]></phrase>
   <phrase title="option_group_description.AnonReferrerOption" version_id="1527238245" version_string="2.0.5"><![CDATA[Hide referer links, Links from Guest. Whitelist.]]></phrase>
 </phrases>

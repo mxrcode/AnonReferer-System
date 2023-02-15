@@ -4,6 +4,11 @@
     <default_value>1</default_value>
     <relation group_id="AnonReferrerOption" display_order="5"/>
   </option>
+  <option option_id="AnRefML" edit_format="textbox" data_type="string">
+    <default_value></default_value>
+    <edit_format_params>rows=2</edit_format_params>
+    <relation group_id="AnonReferrerOption" display_order="7"/>
+  </option>
   <option option_id="AnRefPrefix" edit_format="select" data_type="string">
     <default_value>https://href.li/?=href.li</default_value>
     <edit_format_params>https://href.li/?=href.li

@@ -13,6 +13,8 @@ class Html extends XFCP_Html
 		preg_match_all('|//(.*?)/|is', $url, $siteurl);
 		if (in_array($siteurl[1][0], explode("\n", $xfstt->AnRefWL))) {
 			return $url;
+		} elseif (in_array($siteurl[1][0], explode("\n", $xfstt->AnRefML))) {
+			return str_ireplace($siteurl[1][0], $_SERVER['HTTP_HOST'], $url);
 		} else {
 			$url = str_replace(' href="', ' href="' . $xfstt->AnRefPrefix, $url);
 			if ($visitor['user_id'] == 0 && $xfstt->AnRefHGlink): $url = \XF::phrase('AnRefGL'); endif;
