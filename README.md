@@ -4,7 +4,7 @@ Plugin that works with links in Xenforo 2.x.x. Hiding from guests. Hiding refere
 ## Features
 - Hiding links from guests,
 - Hiding the referer on links,
-- Full support for the Whitelist,
+- Whitelist support,
 - List of Mirrors - Domain substitution for links to the current domain used by a specific user.
 
 *All domains used by the forum must be included in the Mirror List, even if there is only one domain.*<br/>
