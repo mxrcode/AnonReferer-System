@@ -2,10 +2,10 @@
     "legacy_addon_id": "",
     "title": "[MxR] AnonReferer System",
     "description": "System for Hide links from guest and referer links. Supports Whitelist & Mirrors.",
-    "version_id": 1651989139,
-    "version_string": "2.2.0.1",
+    "version_id": 2002020000,
+    "version_string": "2.2.1",
     "dev": "MxR",
-    "dev_url": "https://xenforo.info/members/16758/",
+    "dev_url": "https://github.com/mxrcode/",
     "faq_url": "",
     "support_url": "",
     "extra_urls": {
