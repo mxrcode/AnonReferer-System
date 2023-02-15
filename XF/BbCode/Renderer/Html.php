@@ -9,7 +9,6 @@ class Html extends XFCP_Html
 		$url = parent::renderTagUrl($children, $option, $tag, $options);
 		$xfOptions = \XF::options();
 		$visitor_arr = \XF::visitor();
-		$user_guest_id = $xfOptions->AnonReferrerGuestID;
 
 		if ($xfOptions->AnonReferrerActive) {
 			$anonreferrer = $xfOptions->AnonReferrerPrefix;

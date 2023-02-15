@@ -1,7 +1,7 @@
 {
-    "src/addons/MxR/AnonReferrer/addon.json": "3ba756ef752a806809b9c71255faad023c03a7672c6000fb33264d58f2dc2c9e",
+    "src/addons/MxR/AnonReferrer/addon.json": "d997acea3c3dbd203f20ed2308e0dfb8dd4cfd18fdae1af645e30f6d2325fbfc",
     "src/addons/MxR/AnonReferrer/Setup.php": "3c07c1d86e58bd4b84a05d59966272e5372f6d0d69fd0dde0077444b758e9556",
-    "src/addons/MxR/AnonReferrer/XF/BbCode/Renderer/Html.php": "57e8f8088b4fb474b2e79d55b561ba876f3593280266de7e70a5d310e6d9eb9b",
+    "src/addons/MxR/AnonReferrer/XF/BbCode/Renderer/Html.php": "b2cc9918acffe6d672e74a4aab3fccb2e079602d07a9970e3a5ec9f039cd7f09",
     "src/addons/MxR/AnonReferrer/_data/admin_navigation.xml": "064ec797484ac00d5ee37367b50b06846d11f480d00550997712707f8fdac8c0",
     "src/addons/MxR/AnonReferrer/_data/admin_permission.xml": "ec6fb97cebf0bceb24f1ed1d5778c1db54eeb7535fbb3e31d824840e7aa9ff87",
     "src/addons/MxR/AnonReferrer/_data/advertising_positions.xml": "d2f7cbe844bb1df3cf878d22ff6306249245c8ff6b0b87b9b729744bec538261",
