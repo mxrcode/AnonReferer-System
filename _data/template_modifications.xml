@@ -1,2 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
-<template_modifications/>
+<template_modifications>
+  <modification type="public" template="PAGE_CONTAINER" modification_key="mxr_ars_add_less" description=".less in the main template style" execution_order="10" enabled="1" action="str_replace">
+    <find><![CDATA[</head>]]></find>
+    <replace><![CDATA[$0
+<xf:css src="anonreferrersystem_style.less" />]]></replace>
+  </modification>
+</template_modifications>

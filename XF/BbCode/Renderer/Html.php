@@ -9,18 +9,19 @@ class Html extends XFCP_Html
 		$url = parent::renderTagUrl($children, $option, $tag, $options);
 		$xfOptions = \XF::options();
 		$visitor_arr = \XF::visitor();
+		$mxrlinkfg = \XF::phrase('AnonReferrerGuestLink');
 
 		if ($xfOptions->AnonReferrerActive) {
 			$anonreferrer = $xfOptions->AnonReferrerPrefix;
 			if ($visitor_arr['user_id'] === 0 && $xfOptions->AnonReferrerHideGuestLink && $xfOptions->AnonReferrerHideGuestLinkInternal) {
-				return \XF::phrase('AnonReferrerGuestLink');
+				return $mxrlinkfg;
 			} else {
 				if ($xfOptions->AnonReferrerInternalActive) {
 					if ($visitor_arr['user_id'] === 0 && $xfOptions->AnonReferrerHideGuestLink) {
 						if ((strpos($url, $xfOptions->boardUrl) !== false)) {
 							return str_replace('href="', 'href="' . $anonreferrer, $url);
 						} else {
-							return \XF::phrase('AnonReferrerGuestLink');
+							return $mxrlinkfg;
 						}
 					} else {
 						return str_replace('href="', 'href="' . $anonreferrer, $url);
@@ -30,7 +31,7 @@ class Html extends XFCP_Html
 						return $url;
 					} else {
 						if ($visitor_arr['user_id'] === 0 && $xfOptions->AnonReferrerHideGuestLink) {
-							return \XF::phrase('AnonReferrerGuestLink');
+							return $mxrlinkfg;
 						} else {
 							return str_replace('href="', 'href="' . $anonreferrer, $url);
 						}

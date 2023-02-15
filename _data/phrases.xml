@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <phrases>
-  <phrase title="AnonReferrerGuestLink" version_id="1527238229" version_string="2.0.2 fix"><![CDATA[[Ссылка доступна только для зарегистрированных]]]></phrase>
+  <phrase title="AnonReferrerGuestLink" version_id="1527238232" version_string="2.0.3"><![CDATA[<span class="mxr_ars_elem_div"><i class="fa fa-exclamation-triangle" aria-hidden="true"></i>Для просмотра ссылки необходимо: <a href="/index.php?login/" title="Перейти на страницу входа">Войти</a> <text>или</text> <a href="/index.php?register/" title="Перейти на страницу регистрации">Регистрация</a></span>]]></phrase>
   <phrase title="option.AnonReferrerActive" version_id="1527238222" version_string="2.0.0"><![CDATA[Активирован]]></phrase>
   <phrase title="option.AnonReferrerHideGuestLink" version_id="1527238225" version_string="2.0.1"><![CDATA[Скрыть ссылки от гостей]]></phrase>
   <phrase title="option.AnonReferrerHideGuestLinkInternal" version_id="1527238229" version_string="2.0.2 fix"><![CDATA[Скрывать внутренние ссылки от гостей]]></phrase>

@@ -1,2 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
-<templates/>
+<templates>
+  <template type="public" title="anonreferrersystem_style.less" version_id="1527238232" version_string="2.0.3"><![CDATA[// MXR Anon ReferrerSystem
+@mxrarbgcl: #ffe7e5; // Background Color
+@mxrarbll: #f2240d; // Color of left Border
+@mxrarctl: #d63309; // Text Color
+@mxrarctlor: #f73c0d; // Text Color "OR/ИЛИ"
+@mxrarctlfa: #f2240d; // Color of the Font Awesome Icons
+
+.mxr_ars_elem_div {
+	margin: 0px 6px;
+	background-color:@mxrarbgcl;
+	color: @mxrarctl;
+	border-left:3px solid @mxrarbll;
+	padding: 0px 5px 0px 0px;
+	.fa-exclamation-triangle {
+		color: @mxrarctlfa;
+		margin: 0px 5px;
+	}
+	text {
+		color:@mxrarctlor;
+	}
+}]]></template>
+</templates>
