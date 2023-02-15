@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<language title="Russian (RU)" date_format="j M Y" time_format="H:i" currency_format="{value} {symbol}" week_start="1" decimal_point="." thousands_separator="," label_separator=":" comma_separator=", " ellipsis="..." parenthesis_open="(" parenthesis_close=")" language_code="ru-RU" text_direction="LTR" user_selectable="1" addon_id="MxR/AnonReferrer" base_version_id="1651979999" export_version="2">
+<language title="Russian (RU)" date_format="j M Y" time_format="H:i" currency_format="{value} {symbol}" week_start="1" decimal_point="." thousands_separator="," label_separator=":" comma_separator=", " ellipsis="..." parenthesis_open="(" parenthesis_close=")" language_code="ru-RU" text_direction="LTR" user_selectable="1" addon_id="MxR/AnonReferrer" base_version_id="1651989128" export_version="2">
   <phrase title="AnRefGL" addon_id="MxR/AnonReferrer" version_id="1527238245" version_string="2.0.5"><![CDATA[<span class="mxr_block_glinks"><i class="fa fa-exclamation-triangle" aria-hidden="true"></i>Для просмотра ссылки <a href="/index.php?login/" title="Вход">Войди</a> <text>или</text> <a href="/index.php?register/" title="Регистрация">Зарегистрируйся</a></span>]]></phrase>
   <phrase title="option.AnRefHGlink" addon_id="MxR/AnonReferrer" version_id="1527238245" version_string="2.0.5"><![CDATA[Скрывать ссылки от Гостя]]></phrase>
   <phrase title="option.AnRefHRlink" addon_id="MxR/AnonReferrer" version_id="1651974986" version_string="2.2.0.0"><![CDATA[Скрывать referer у ссылок]]></phrase>
@@ -13,5 +13,5 @@ site.com<br/>
 site.us</i>]]></phrase>
   <phrase title="option_explain.AnRefPrefix" addon_id="MxR/AnonReferrer" version_id="1651974986" version_string="2.2.0.0"><![CDATA[Выберите сервис для скрытия referer у ссылок]]></phrase>
   <phrase title="option_explain.AnRefWL" addon_id="MxR/AnonReferrer" version_id="1527238256" version_string="2.0.5.2"><![CDATA[]]></phrase>
-  <phrase title="option_group_description.AnonReferrerOption" addon_id="MxR/AnonReferrer" version_id="1651979999" version_string="2.2.0.0"><![CDATA[Плагин для скрытия ссылок от гостя и скрытия referer у ссылок. Поддержка белого списка и списка зеркал.]]></phrase>
+  <phrase title="option_group_description.AnonRefererOption" addon_id="MxR/AnonReferrer" version_id="1651989128" version_string="2.2.0.1"><![CDATA[Плагин для скрытия ссылок от гостя и скрытия referer у ссылок. Поддержка белого списка и списка зеркал.]]></phrase>
 </language>

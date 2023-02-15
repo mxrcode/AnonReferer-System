@@ -1,4 +1,4 @@
 <?xml version="1.0" encoding="utf-8"?>
 <option_groups>
-  <group group_id="AnonReferrerOption" display_order="15999" debug_only="0"/>
+  <group group_id="AnonRefererOption" display_order="15999" debug_only="0"/>
 </option_groups>

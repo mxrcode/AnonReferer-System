@@ -16,6 +16,6 @@ site.com<br>
 site.us</i>]]></phrase>
   <phrase title="option_explain.AnRefPrefix" version_id="1527238245" version_string="2.0.5"><![CDATA[Select from the list of services to hide Referrer]]></phrase>
   <phrase title="option_explain.AnRefWL" version_id="1527238256" version_string="2.0.5.2"><![CDATA[]]></phrase>
-  <phrase title="option_group.AnonReferrerOption" version_id="1527238227" version_string="2.0.2"><![CDATA[AnonReferrer System]]></phrase>
-  <phrase title="option_group_description.AnonReferrerOption" version_id="1651974986" version_string="2.2.0.0" global_cache="1"><![CDATA[System for Hide links from guest and referer links. Supports Whitelist & Mirrors.]]></phrase>
+  <phrase title="option_group.AnonRefererOption" version_id="1651979999" version_string="2.2.0.0"><![CDATA[AnonReferer System]]></phrase>
+  <phrase title="option_group_description.AnonRefererOption" version_id="1651979999" version_string="2.2.0.0" global_cache="1"><![CDATA[System for Hide links from guest and referer links. Supports Whitelist & Mirrors.]]></phrase>
 </phrases>
