@@ -2,7 +2,7 @@
     "legacy_addon_id": "",
     "title": "[MxR] AnonReferer System",
     "description": "System for Hide links from guest and referer links. Supports Whitelist & Mirrors.",
-    "version_id": 2002020000,
+    "version_id": 2002020100,
     "version_string": "2.2.1",
     "dev": "MxR",
     "dev_url": "https://github.com/mxrcode/",
